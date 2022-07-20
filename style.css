@@ -1,0 +1,88 @@
+/***
+ * @author Pankaj Saha
+ * @date 20-07-2022
+ * This code is written in plain css for HEX to RGB and RGB to HEX colour code conversion
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5em;
+  border: 1px;
+  margin-top: 1.5em;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  grid-template-columns: 4fr 5fr 2fr;
+  background-color: #fff;
+}
+p {
+  float: right;
+}
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 7px 15px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-top: 0;
+}
+#btn_clear {
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007aff;
+  color: white;
+}
+#btn_clear:hover {
+  background-color: #0063dc;
+}
+#show_error {
+  color: red;
+  font-weight: 700;
+}
+#show_msg {
+  color: green;
+  font-weight: 700;
+}
+.rin {
+  width: 70px;
+  font-size: 1.2em;
+}
+.hin {
+  width: 120px;
+  font-size: 1.2em;
+}
+.hex_rgb input {
+  font-size: 1.2em;
+}
+.hex_rgb span,
+.rgb_hex span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+#r2h {
+  border: 0;
+  font-size: 1.2em;
+  width: 110px;
+  cursor: pointer;
+}
+#h2r {
+  border: 0;
+  font-size: 1.2em;
+  width: 180px;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}

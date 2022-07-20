@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Colour Code Converter HEX-RGB : RGB-HEX</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Colour Code Converter</h1>
+    <div class="container">
+      <div class="hex_rgb">
+        <h2>HEX - RGB</h2>
+        #<input class="hin" type="text" maxlength="6" id="hex_val" />
+        <input type="text" readonly="readonly" id="h2r" value="" />
+      </div>
+      <div class="rgb_hex">
+        <h2>RGB - HEX</h2>
+        <input
+          class="rin"
+          type="text"
+          maxlength="3"
+          id="r_val"
+          placeholder="R"
+        /><input
+          class="rin"
+          type="text"
+          maxlength="3"
+          id="g_val"
+          placeholder="G"
+        /><input
+          class="rin"
+          type="text"
+          maxlength="3"
+          id="b_val"
+          placeholder="B"
+        />
+        <input type="text" readonly="readonly" id="r2h" value="" />
+      </div>
+      <div>
+        <button id="btn_clear" onclick="clearText()">Clear</button
+        ><br /><br /><span id="show_error"></span><span id="show_msg"></span>
+      </div>
+    </div>
+  </body>
+  <script async src="./hexrgb_converter.js"></script>
+</html>

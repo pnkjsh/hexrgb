@@ -49,14 +49,14 @@ A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, S
 - G = 139<sub>10</sub> = 8B<sub>16</sub>
 - G = 87<sub>10</sub> = 57<sub>16</sub>
 
-Therefore, rgb(46,139,87) = #2E8B57 ~hex~
+Therefore, rgb(46,139,87) = #2E8B57 <sub>hex</sub>
 
 ## How to convert HEX to RGB
 1. Divide the hexadecimal color into three parts, the first two digits(R), the middle two digits(G), and the last two character digits(B). 
 2. Separate hexadecimal numbers into decimal numbers.
 
 ### Convert red color #0063DC to hex color code:
-**Hex = EE7C6B**
+**Hex = 0063DC**
 
 - R = 00<sub>16</sub> = 00<sub>10</sub>
 - G = 63<sub>16</sub> = 99<sub>10</sub>

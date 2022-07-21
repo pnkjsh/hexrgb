@@ -1,5 +1,6 @@
 # Colour Code Conveter HEX-RGB | RGB-HEX
 @author - Pankaj Saha | July 2022 (last update)
+
 This tool is a free online color converter between two color formats RGB and HEX. The tool is fast and very simple to use.
 
 ## Live Demo
@@ -43,9 +44,11 @@ A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, S
 3. Merge the three parts
 
 ### Convert red color (46,139,87) to hex color code:
-R = 46~10~ = 2E~16~
-G = 139~10~ = 8B~16~
-G = 87~10~ = 57~16~
+
+- R = 46<sub>10</sub> = 2E<sub>16</sub>
+- G = 139<sub>10</sub> = 8B<sub>16</sub>
+- G = 87<sub>10</sub> = 57<sub>16</sub>
+
 Therefore, rgb(46,139,87) = #2E8B57 ~hex~
 
 ## How to convert HEX to RGB
@@ -55,8 +58,9 @@ Therefore, rgb(46,139,87) = #2E8B57 ~hex~
 ### Convert red color #0063DC to hex color code:
 **Hex = EE7C6B**
 
-R = 00~16~ = 00~10~
-G = 63~16~ = 99~10~
-B = DC~16~ = 220~10~
-Therefore, #0063DC ~hex~ = rgb(0, 99, 220)
+- R = 00<sub>16</sub> = 00<sub>10</sub>
+- G = 63<sub>16</sub> = 99<sub>10</sub>
+- B = DC<sub>16</sub> = 220<sub>10</sub>
+
+Therefore, #0063DC <sub>hex</sub> = rgb(0, 99, 220)
 

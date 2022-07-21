@@ -1,4 +1,4 @@
-# Colour Code Conveter HEX-RGB | RGB-HEX
+# Colour Code Converter HEX-RGB | RGB-HEX
 @author - Pankaj Saha | July 2022 (last update)
 
 This tool is a free online color converter between two color formats RGB and HEX. The tool is fast and very simple to use.
